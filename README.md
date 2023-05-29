@@ -2,7 +2,9 @@
 
 <h2>Utilize essa biblioteca para extrair informaçoes de URLs</h2>
 
-Ex:<br>
+![apresentacao-url-extrator](https://github.com/dimitriribeiro/extrator-url/assets/108006649/31f9789b-1844-4686-b95f-38ab655b767b)
+
+<h2>Exemplo</h2>
 
 url = "bytebank.com/cambio?quantidade=100&moedaOrigem=real&moedaDestino=dolar"
 
