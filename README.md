@@ -1,6 +1,3 @@
-Pode copiar e colar sim! Aqui está em Markdown puro:
-
-```markdown
 # 🤓 URL Info Extractor
 
 Uma biblioteca Python para extrair informações estruturais de URLs e analisar sitemaps de sites, com interface web intuitiva via Streamlit.
@@ -75,4 +72,3 @@ Não recomendado para análise de:
 Esta biblioteca oferece capacidades avançadas de distinção e extração de informações para ajudar você a alcançar seus objetivos de análise de URLs e mapeamento de estruturas web!
 ```
 
-É só copiar esse código e colar no seu arquivo README.md que vai funcionar perfeitamente! 😊
