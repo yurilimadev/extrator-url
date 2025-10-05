@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from extrator.extrator_url import ExtratorURL
-from extrator.analisar_sm import extrair_sitemap
+from extrator.analisar_sm import extrair_sitemap, analisar
 
 st.markdown('''
     <style>
@@ -113,7 +113,11 @@ if st.session_state['dados_extraidos']:
                 try:
                     caminho_xml = 'https://' + dict_dir["DIRETORIO_1"]+'/'
                     res_bs4 = extrair_sitemap(caminho_xml)
-                    st.write(res_bs4)
+                    site_map = analisar(caminho_xml)
+                    
+                    st.write("---")
+                    st.subheader("Resultado Recebido:")
+                    st.json(data_response)
                 except Exception as e:
                     #'👨🏽‍💻 O site não permitiu a leitura do sitemap. Eles estão ligados! '
                     st.info(e)
